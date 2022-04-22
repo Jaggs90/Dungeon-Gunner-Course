@@ -12,6 +12,7 @@ public class RoomNodeGraphSO : ScriptableObject
     private void Awake()
     {
         LoadRoomNodeDictionary();
+
     }
 
     /// <summary>
@@ -40,6 +41,8 @@ public class RoomNodeGraphSO : ScriptableObject
         return null;
     }
 
+
+
     #region Editor Code
 
     // The following code should only run in the Unity Editor
@@ -63,4 +66,5 @@ public class RoomNodeGraphSO : ScriptableObject
 #endif
 
     #endregion Editor Code
+
 }

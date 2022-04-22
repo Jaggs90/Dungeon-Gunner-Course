@@ -1,5 +1,7 @@
-﻿using UnityEditor.Tilemaps;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.Tilemaps;
 
 namespace UnityEditor
 {
@@ -8,6 +10,7 @@ namespace UnityEditor
     public class CoordinateBrush : GridBrush
     {
         public int z = 0;
+
 
         public override void Paint(GridLayout grid, GameObject brushTarget, Vector3Int position)
         {
@@ -33,6 +36,7 @@ namespace UnityEditor
             position.position = zPosition;
             base.BoxFill(gridLayout, brushTarget, position);
         }
+
     }
 
     [CustomEditor(typeof(CoordinateBrush))]
@@ -59,6 +63,8 @@ namespace UnityEditor
                     grid.CellToLocal(new Vector3Int(newPosition.max.x, newPosition.min.y, newPosition.min.z)),
                     grid.CellToLocal(new Vector3Int(newPosition.max.x, newPosition.max.y, newPosition.min.z)),
                     grid.CellToLocal(new Vector3Int(newPosition.min.x, newPosition.max.y, newPosition.min.z))
+
+
                 };
 
                 Handles.color = Color.blue;
@@ -78,6 +84,7 @@ namespace UnityEditor
 
             GUIStyle myStyle = new GUIStyle();
             myStyle.normal.textColor = Color.white;
+
 
             Handles.Label(grid.CellToWorld(new Vector3Int(position.x, position.y, coordinateBrush.z)), labelText, myStyle);
         }

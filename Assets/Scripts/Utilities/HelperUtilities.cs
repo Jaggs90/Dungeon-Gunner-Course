@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public static class HelperUtilities
@@ -26,6 +27,7 @@ public static class HelperUtilities
 
         foreach (var item in enumerableObjectToCheck)
         {
+
             if (item == null)
             {
                 Debug.Log(fieldName + " has null values in object " + thisObject.name.ToString());
@@ -45,4 +47,5 @@ public static class HelperUtilities
 
         return error;
     }
+
 }

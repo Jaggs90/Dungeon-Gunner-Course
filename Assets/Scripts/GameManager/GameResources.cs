@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameResources : MonoBehaviour
@@ -17,17 +19,12 @@ public class GameResources : MonoBehaviour
     }
 
     #region Header DUNGEON
-
     [Space(10)]
     [Header("DUNGEON")]
-
-    #endregion Header DUNGEON
-
+    #endregion
     #region Tooltip
-
     [Tooltip("Populate with the dungeon RoomNodeTypeListSO")]
-
-    #endregion Tooltip
+    #endregion
 
     public RoomNodeTypeListSO roomNodeTypeList;
 }

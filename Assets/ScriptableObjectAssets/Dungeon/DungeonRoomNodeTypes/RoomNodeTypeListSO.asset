@@ -9,17 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cd9683d8ad37204095208130063ab4b, type: 3}
+  m_Script: {fileID: 11500000, guid: 70174d0824b0c124d8e491ca65666f0c, type: 3}
   m_Name: RoomNodeTypeListSO
   m_EditorClassIdentifier: 
   list:
-  - {fileID: 11400000, guid: 63810d356695066419e1a442f69606ce, type: 2}
-  - {fileID: 11400000, guid: 48e49f377ea9a0d4f88e1a6196a43785, type: 2}
-  - {fileID: 11400000, guid: f14a50081d01d8a47bdfb18956f577f1, type: 2}
-  - {fileID: 11400000, guid: 3e5b819776bb0874bac14072f6d4b78e, type: 2}
-  - {fileID: 11400000, guid: 4e4db50941c9db24d9ff08d721cea865, type: 2}
-  - {fileID: 11400000, guid: 41a3fed5bcad76148b587710ff07182e, type: 2}
-  - {fileID: 11400000, guid: 611b0577d5fa4dc48acc2b6d08596e53, type: 2}
-  - {fileID: 11400000, guid: f8118b8f1209c8e4494ef99c5a926692, type: 2}
-  - {fileID: 11400000, guid: 55ce79d4465d2df44adeb43870dcf982, type: 2}
-  - {fileID: 11400000, guid: cb9f4fbe77e3c564e97f976224bcfde2, type: 2}
+  - {fileID: 11400000, guid: a9807a7d9133593439abc8b688723727, type: 2}
+  - {fileID: 11400000, guid: f4e198bbe7f301c4786b0a783e94568c, type: 2}
+  - {fileID: 11400000, guid: 33a7f5e2cd3420c419cb7d4d8b981d2e, type: 2}
+  - {fileID: 11400000, guid: 977ebd963d142ac4784568fa9711180a, type: 2}
+  - {fileID: 11400000, guid: 4b4ab0bafb4b925498b5ca76e01030cd, type: 2}
+  - {fileID: 11400000, guid: b13251ff4c34a00479ba22d000f694f7, type: 2}
+  - {fileID: 11400000, guid: 3262b23e815cd4949b0e6d20b7ff5935, type: 2}
+  - {fileID: 11400000, guid: e88b2f1db2464ad40828f246b16b427b, type: 2}
+  - {fileID: 11400000, guid: dca5188b0c44f534d98e12a29c65f1a4, type: 2}
+  - {fileID: 11400000, guid: 3f46b5f4c2b9b3f4bb86e72ae18e2ca1, type: 2}
